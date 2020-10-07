@@ -1,3 +1,4 @@
+<?php ob_start('comprimir_pagina'); ?> 
 <!DOCTYPE html>
 <html lang="en">
 
@@ -5,12 +6,12 @@
   <meta charset="utf-8">
   <meta content="width=device-width, initial-scale=1.0" name="viewport">
 
-  <title>Puntos de Venta | Meison Homecenter</title>
+  <title>Contáctanos | Meison Homecenter</title>
   <meta content="" name="descriptison">
   <meta content="" name="keywords">
 
- <!-- Favicons -->
- <link href="assets/img/favicon.png" rel="icon">
+  <!-- Favicons -->
+  <link href="assets/img/favicon.png" rel="icon">
 
   <!-- Google Fonts -->
   <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Raleway:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i" rel="stylesheet">
@@ -24,15 +25,6 @@
   <link href="assets/vendor/animate.css/animate.min.css" rel="stylesheet">
   <link href="assets/vendor/aos/aos.css" rel="stylesheet">
 
-  <!-- Leaflet -->
-  <link rel="stylesheet" href="https://unpkg.com/leaflet@1.0.3/dist/leaflet.css" integrity="sha512-07I2e+7D8p6he1SIM+1twR5TIrhUQn9+I6yjqD53JQjFiMf8EtC93ty0/5vJTZGF8aAocvHYNEDJajGdNx1IsQ==" crossorigin="" />
-	<script src="https://unpkg.com/leaflet@1.0.3/dist/leaflet-src.js" integrity="sha512-WXoSHqw/t26DszhdMhOXOkI7qCiv5QWXhH9R7CgvgZMHz1ImlkVQ3uNsiQKu5wwbbxtPzFXd1hK4tzno2VqhpA==" crossorigin=""></script>
-	<link rel="stylesheet" href="https://leaflet.github.io/Leaflet.markercluster/example/screen.css" />\
-	<link rel="stylesheet" href="https://leaflet.github.io/Leaflet.markercluster/dist/MarkerCluster.css" />
-	<link rel="stylesheet" href="https://leaflet.github.io/Leaflet.markercluster/dist/MarkerCluster.Default.css" />
-	<script src="https://leaflet.github.io/Leaflet.markercluster/dist/leaflet.markercluster-src.js"></script>
-	<script src="https://leaflet.github.io/Leaflet.markercluster/example/realworld.388.js"></script>
-
   <!-- Template Main CSS File -->
   <link href="assets/css/style.css" rel="stylesheet">
 
@@ -41,96 +33,92 @@
 <body>
 
   <!-- ======= Header ======= -->
-  <header id="header" class="fixed-top">
-    <div class="container d-flex align-items-center">
-
-      <h1 class="logo mr-auto"><a href="index.html">Mentor</a></h1>
-      <!-- Uncomment below if you prefer to use an image logo -->
-      <!-- <a href="index.html" class="logo mr-auto"><img src="assets/img/logo.png" alt="" class="img-fluid"></a>-->
-
-      <nav class="nav-menu d-none d-lg-block">
-        <ul>
-          <li ><a href="index.html">Inicio</a></li>
-          <li><a href="about.html">Nosotros</a></li>
-         
-          <li><a href="trainers.html">Servicios</a></li>
-          
-          <li class="drop-down"><a href="">Productos</a>
-            <ul>
-              
-              <li class="drop-down"><a href="#">Sub 1</a>
-                <ul>
-                  <li><a href="productos.html">Producto1</a></li>
-                  <li><a href="#">Producto1</a></li>
-                  <li><a href="#">Producto2</a></li>
-                  <li><a href="#">Producto3</a></li>
-                  <li><a href="#">Producto4</a></li>
-                </ul>
-              </li>
-              <li><a href="#">Sub 2</a></li>
-              <li><a href="#">Sub 3</a></li>
-              <li><a href="#">Sub 4</a></li>
-            </ul>
-          </li>
-          <li><a href="courses.html">Punto de Venta</a></li>
-          <li><a href="contact.html">Contáctanos</a></li>
-
-        </ul>
-      </nav><!-- .nav-menu -->
-
-
-    </div>
-  </header><!-- End Header -->
-  <a name="mapa"></a>
+  <?php include('header.php'); ?>
+  <!-- End Header -->
 
   <main id="main">
+
     <!-- ======= Breadcrumbs ======= -->
-    <div class="breadcrumbsmapa" data-aos="fade-in">
+    <div class="breadcrumbs" data-aos="fade-in">
       <div class="container">
-        <h2>Punto de Venta</h2>
-        <p>Aquí encontrarás el lugar en donde te brindaremos la mejor atención.</p>
+        <h2>Contact Us</h2>
+        <p>Est dolorum ut non facere possimus quibusdam eligendi voluptatem. Quia id aut similique quia voluptas sit quaerat debitis. Rerum omnis ipsam aperiam consequatur laboriosam nemo harum praesentium. </p>
       </div>
     </div><!-- End Breadcrumbs -->
-    <br/>
+
     <!-- ======= Contact Section ======= -->
-    <section id="testimonials" class="testimonials">
-      <div class="container" data-aos="fade-up">
+    <section id="contact" class="contact">
+      <div class="container">
 
-        <div id="map"></div>
+        <div class="row justify-content-center" data-aos="fade-up">
 
-        <br/><br/><br/><br/>
-        <div class="ajTit">
-          <div class="section-title">
-            <a name="nuestrosLocales"></a>
-            <h2>Nuestro local</h2>
-          </div>
-        </div>
-      </div>
-    </section><!-- End Team Section -->
+          <div class="col-lg-10">
 
-    <!-- ======= Events Section ======= -->
-    <section id="events" class="events">
-      <div class="container" data-aos="fade-up">
+            <div class="info-wrap">
+              <div class="row">
+                <div class="col-lg-4 info">
+                  <i class="icofont-google-map"></i>
+                  <h4>Location:</h4>
+                  <p>A108 Adam Street<br>New York, NY 535022</p>
+                </div>
 
-        <div class="row">
-          <div class="col-md-6 d-flex align-items-stretch">
-            <div class="card">
-              <div class="card-img">
-                <img src="assets/img/events-1.jpg" alt="...">
-              </div>
-              <div class="ajustarT">
-                <div class="card-body align-items-stretch">
-                  <h5 class="card-title"><a href="#mapa" onClick="abrirUbicacion(0)">Meison HomeCenter</a></h5>
-                  <p class="card-text" style="text-align: justify;">Contamos con productos de primera calidad, visitanos estamos a las ordenes!</p>
+                <div class="col-lg-4 info mt-4 mt-lg-0">
+                  <i class="icofont-envelope"></i>
+                  <h4>Email:</h4>
+                  <p>info@example.com<br>contact@example.com</p>
+                </div>
+
+                <div class="col-lg-4 info mt-4 mt-lg-0">
+                  <i class="icofont-phone"></i>
+                  <h4>Call:</h4>
+                  <p>+1 5589 55488 51<br>+1 5589 22475 14</p>
                 </div>
               </div>
             </div>
+
           </div>
-          
+
+        </div>
+
+        <div class="row mt-5 justify-content-center" data-aos="fade-up">
+          <div class="col-lg-10">
+            <form action="forms/contact.php" method="post" role="form" class="php-email-form">
+              <div class="form-row">
+                <div class="col-md-6 form-group">
+                  <input type="text" name="nombre" class="form-control" id="nombre" placeholder="Ingrese su nombre" data-rule="minlen:3" data-msg="Porfavor ingrese su nombre" />
+                  <div class="validate"></div>
+                </div>
+                <div class="col-md-6 form-group">
+                  <input type="text" class="form-control" name="telefono" id="telefono" placeholder="Ingrese su teléfono" data-rule="minlen:10" data-msg="Porfavor ingrese un número de teléfono válido" onkeypress="if(even.keycode<45 || event.keycode>57) event.returnValue=false;"/>
+                  <div class="validate"></div>
+                </div>
+              </div>
+              <div class="form-group">
+                <input type="email" class="form-control" name="email" id="email" placeholder="Ingrese su email" data-rule="email" data-msg="Porfavor ingrese un email válido" />
+                  <div class="validate"></div>
+              </div>
+              <div class="form-group">
+                <input type="text" class="form-control" name="asunto" id="asunto" placeholder="Ingrese el asunto" data-rule="minlen:4" data-msg="Porfavor ingrese el asunto, mínimo 8 caracteres" />
+                <div class="validate"></div>
+              </div>
+              <div class="form-group">
+                <textarea class="form-control" name="mensaje" rows="5" data-rule="required" data-msg="Porfavor digite su mensaje" placeholder="Mensaje"></textarea>
+                <div class="validate"></div>
+              </div>
+              <div class="mb-3">
+                <div class="loading">Loading</div>
+                <div class="error-message"></div>
+                <div class="sent-message">Su mensaje se ha enviado exitosamente. Gracias!</div>
+              </div>
+              <div class="text-center"><button type="submit">Enviar</button></div>
+            </form>
+          </div>
+
         </div>
 
       </div>
-    </section><!-- End Events Section -->
+    </section><!-- End Contact Section -->
+
 
   </main><!-- End #main -->
 
@@ -216,7 +204,6 @@
   <script src="assets/vendor/counterup/counterup.min.js"></script>
   <script src="assets/vendor/owl.carousel/owl.carousel.min.js"></script>
   <script src="assets/vendor/aos/aos.js"></script>
-  <script src="assets/js/mapa.js"></script>
 
   <!-- Template Main JS File -->
   <script src="assets/js/main.js"></script>
@@ -224,3 +211,11 @@
 </body>
 
 </html>
+<?php
+ob_end_flush(); 
+function comprimir_pagina($buffer) { 
+    $busca = array('/\>[^\S ]+/s','/[^\S ]+\</s','/(\s)+/s'); 
+    $reemplaza = array('>','<','\\1'); 
+    return preg_replace($busca, $reemplaza, $buffer); 
+} 
+?>
