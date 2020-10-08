@@ -58,8 +58,8 @@
               <div class="row">
                 <div class="col-lg-4 info">
                   <i class="icofont-google-map"></i>
-                  <h4>Location:</h4>
-                  <p>A108 Adam Street<br>New York, NY 535022</p>
+                  <h4>Dirección:</h4>
+                  <p>Av. Victor Hugo y<br>Batalla de Pichincha</p>
                 </div>
 
                 <div class="col-lg-4 info mt-4 mt-lg-0">
@@ -71,7 +71,7 @@
                 <div class="col-lg-4 info mt-4 mt-lg-0">
                   <i class="icofont-phone"></i>
                   <h4>Call:</h4>
-                  <p>+1 5589 55488 51<br>+1 5589 22475 14</p>
+                  <p>0980582796</p>
                 </div>
               </div>
             </div>

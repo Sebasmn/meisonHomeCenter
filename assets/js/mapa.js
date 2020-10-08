@@ -26,7 +26,7 @@ map.addLayer(tileLayer);
 
 //Coordenadas y titulos para marcadores de mapa
 var markers = [
-["<center><b>Meison HomeCenter</b></center> <br> <b>Dirección:</b> Victor Hugo y Batalla del pichincha <br> <b>Celular:</b> 0980582796 <br><br><div class=text-center><button onclick=volverMapa() class=btnEnviar style=background-color: #1976CB;color: white;>Volver</button></div>", -1.260898,-78.6149427]
+["<center><b>Meison HomeCenter</b></center> <br> <b>Dirección:</b> Av. Victor Hugo y Batalla de Pichincha <br> <b>Celular:</b> 0980582796 <br><br><div class=text-center><button onclick=volverMapa() class=btnEnviar style=background-color: #1976CB;color: white;>Volver</button></div>", -1.260898,-78.6149427]
 ];
 //------------------------------------------
 //Funcion volver mapa
