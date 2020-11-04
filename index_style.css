@@ -1,0 +1,13 @@
+*{
+    margin:0px;
+    padding:0px;
+    font-family:verdana;
+    color:#bcbcbc;
+}
+
+div#menu{
+    position: absolute;
+    width: 170px;
+    height: 100%;
+    background-color: #2f3030;
+}
